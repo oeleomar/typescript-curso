@@ -22,3 +22,13 @@ Registro de aprendizados do Superset de Javascript
   - singleQuote: true,
   - printWidth: 80,
   - tabWidth: 2,
+- Configurando TSC - npx tsc --init
+  - Target: Padrão
+  - module: Padrão
+  - lib: ["ESNext", "DOM"]
+  - outDir: "./dist",
+  - strict: true
+  - Fora do compilerOptions: "include": [
+    "./src"
+    ],
+- Para compilar o projeto - npx tsc
