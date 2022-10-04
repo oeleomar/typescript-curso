@@ -12,3 +12,13 @@ Registro de aprendizados do Superset de Javascript
   "code-runner.executorMap": {
   "typescript": "npx ts-node --files --transpile-only",
   }
+- Instalando e Configurando Eslint - npm i -D eslint
+- Instalando plugins eslint para typescript - npm i @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
+- Configurando Eslint - npx eslint --init
+- Instalando o Prettier - npm i -D prettier eslint-config-prettier eslint-plugin-prettier
+- Configurando prettier em .prettierrc.js
+  - semi: true,
+  - trailingComa: 'all',
+  - singleQuote: true,
+  - printWidth: 80,
+  - tabWidth: 2,
