@@ -32,3 +32,13 @@ Registro de aprendizados do Superset de Javascript
     "./src"
     ],
 - Para compilar o projeto - npx tsc
+
+### Informações
+
+#### Tipos
+
+- :number
+- :string
+- :boolean
+- :symbol
+- :tipo[] || Array\<tipo>
