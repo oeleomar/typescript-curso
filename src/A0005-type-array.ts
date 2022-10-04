@@ -17,3 +17,8 @@ function concatStrings(...args: string[]): string {
 
 const concat = concatStrings('Eleomar', ' ', 'Dorneles');
 console.log(concat);
+
+const arrayImutavel: readonly string[] = ['Eleomar', 'Dorneles']; //Array imutável previne ações como POP e PUSH
+const arrayImutavel2: ReadonlyArray<string> = ['Eleomar', 'Dorneles']; //Array imutável previne ações como POP e PUSH
+console.log(arrayImutavel);
+console.log(arrayImutavel2);
