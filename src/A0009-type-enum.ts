@@ -19,3 +19,5 @@ enum Cores { //Merge de ENUMS, vai se misturar com o de cima
 function chooseColor(color: Cores): void {
   console.log(Cores[color]);
 }
+
+chooseColor(1);
