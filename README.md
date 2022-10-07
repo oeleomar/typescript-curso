@@ -33,6 +33,19 @@ Registro de aprendizados do Superset de Javascript
     ],
 - Para compilar o projeto - npx tsc
 
+##### Configurando WebPack
+
+- <a href="https://webpack.js.org/">Documentação</a>
+- <a href="https://webpack.js.org/guides/typescript/">Documentação Typescript</a>
+
+- Para realizar bundler quando trabalhar com front-end
+- npm i ts-loader webpack webpack-cli -D --- Instalar webpack, o webpack cli e o ts loader
+- Na raiz do projeto criar arquivo chamado webpack.config.js
+- Realizar as configurações encontrada na documentação
+- Utilizar a mesma pasta de saída no webpack e no tsconfig
+- npx webpack --- Para compilar o código em uma pasta
+- npx webpack -w --- Para assistir mudanças e compilar o código
+
 ### Informações
 
 #### Tipos
