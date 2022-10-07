@@ -13,3 +13,6 @@ const body3 = document.querySelector('body') as HTMLBodyElement; //Só se tiver 
 if (body3) body3.style.background = 'red';
 
 // HTMLElement
+const input = document.querySelector('.input') as HTMLInputElement;
+input.value = 'Qualquer coisa';
+input.focus();
