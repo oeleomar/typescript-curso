@@ -55,3 +55,19 @@ Registro de aprendizados do Superset de Javascript
 - :boolean
 - :symbol
 - :tipo[] || Array\<tipo>
+
+### POO - Programação Orientada a Objetos
+
+#### Pilares
+
+- Abstração
+  - Permite isolar de um objeto somente os conceitos que são necessários para o funcionamentodo programa
+  - Ex: Corpo humano é complexo, porém posso ter uma classe que precise apenas do nome e sobrenome da pessoa
+- Encapsulamento
+  - Visa ocultar partes internas de um objeto e exibir apenas o necessário para o uso externo
+  - Ex: Controle remoto, não precisa saber como ele funcionar apenas apertar o botão
+- Herânça
+  - Visa passar caracteristicas de um objeto para o outro
+  - Ex: Class cachorro herdando class Animal
+- Polimorfismo
+  -
