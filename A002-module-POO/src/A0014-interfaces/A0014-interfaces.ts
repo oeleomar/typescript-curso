@@ -11,7 +11,21 @@ type CPF = {
   cpf: string;
 };
 
-export class Pessoa implements TipoPessoa, CPF {
+interface Nome {
+  nome: string;
+}
+
+interface Sobrenome {
+  sobrenome: string;
+}
+
+interface NomeCompleto {
+  nomeCompleto(): string;
+}
+
+export interface Pessoa extends Nome, Sobrenome, NomeCompleto {}
+
+export class Pessoa implements Pessoa {
   constructor(
     public nome: string,
     public sobrenome: string,
