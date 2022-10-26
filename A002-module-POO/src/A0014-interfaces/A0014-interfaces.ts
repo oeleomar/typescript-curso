@@ -23,4 +23,4 @@ export class Pessoa implements TipoPessoa, CPF {
 }
 
 const pessoa1 = new Pessoa('Eleomar', 'Dorneles', '000.000.000-00');
-console.log(pessoa1.nomeCompleto);
+console.log(pessoa1.nomeCompleto());
