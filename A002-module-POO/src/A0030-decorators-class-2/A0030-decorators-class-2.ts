@@ -1,4 +1,7 @@
 //Ordem de chamada DECORATORS
+//O decorador quando chamado utilizando o @, ele é chamado no momento da criação da classe,
+// E não da instancia dela. Logo quando o código for executado, mesmo que a classe não seja instanciada,
+// o decorador é chamado
 
 @inverteNomeECor
 export class Animal {
