@@ -69,5 +69,4 @@ Registro de aprendizados do Superset de Javascript
 - Herânça
   - Visa passar caracteristicas de um objeto para o outro
   - Ex: Class cachorro herdando class Animal
-- Polimorfismo
-  -
+- ## Polimorfismo
